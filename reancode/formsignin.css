@@ -1,0 +1,138 @@
+
+
+@import url();
+
+body{
+  background: rgb(0, 89, 255);
+  direction: ltr;
+  line-height: 1.34;
+  margin: 1;
+  padding: 1;
+  unicode-bidi: embed;
+  
+}
+
+.title{
+    color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+form{
+ width: 50%;
+ height: 50%;
+  margin: 20px auto;
+
+}
+form .label{
+  width: 100px;
+
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    align-items: center;
+    display: inline;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+    align-items: center;
+    display: inline;
+    
+  }
+  
+  
+  button {
+    background-color: #ffffff;
+    color: rgb(10, 36, 155);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-style: calc();
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    
+  }
+  
+  button:hover {
+    opacity:1;
+    
+  }
+  
+  
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #ffffff;
+    
+  }
+  
+  
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 20%;
+  }
+  
+  
+  .container {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    align-items: center;
+    display: contents;
+  }
+  
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+    
+  }
+  .gender{
+    
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 8px 6px 6px;
+    margin-top: 8px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: relative;
+    width: auto;    
+  
+}
+
+
+  
+  
+  @media screen and (max-width: 100px) {
+    .cancelbtn, .signupbtn {
+      width: 20%;
+    }
+  }

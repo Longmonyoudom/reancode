@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\computer"
+		},
+		{
+			"path": "..\\Practise"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\IcIT"
+		},
+		{
+			"path": "..\\week3"
+		},
+		{
+			"path": "..\\html test code"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "computer"
+	}
+}

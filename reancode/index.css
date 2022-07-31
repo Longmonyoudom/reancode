@@ -1,0 +1,62 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman'; 
+}
+body{
+    background: #1E90FF ;
+    padding: 0 10px;
+}
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(red, green, blue, alpha);
+}
+.wrapper .tittle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: chartreuse;
+    text-transform: uppercase;
+    text-align: center;
+}
+.wrapper .form .input_data{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+
+}
+.wrapper .form  .input_data  label{
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.wrapper .form .input_data input{
+    width: 100%;
+    outline: 1225px;
+    border: 1px solid #cdf80c;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.wrapper .form .input_data .custom_-selection{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.wrapper .form .input_data .custom_-selection select{
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #cdf80c;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
